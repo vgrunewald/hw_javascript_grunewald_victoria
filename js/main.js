@@ -9,3 +9,9 @@ var reagan = {firstName:"Ronald", lastName:"Reagan", termLength:"8 years", party
 var presidents = [obama, wbush, clinton, hwbush, reagan];
 console.log(presidents[2].firstName + " " + presidents[2].lastName);
 
+function howdy(firstName, lastName, message) {
+	return firstName + " " + lastName + " says " + message + "!";
+}
+
+var greeting = howdy( "Vicki", "Grunewald", "hi");
+console.log( greeting );
