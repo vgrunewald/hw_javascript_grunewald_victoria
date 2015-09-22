@@ -33,6 +33,13 @@ numba("seventy");
 numba("university");
 
 
+function inception(callback, value) {
+	callback(value);
+};
+function printMovieTitle(title) {
+	console.log(title + " is a fantastic movie.");
+}
+inception(printMovieTitle, "Toy Story")
 
 
 
